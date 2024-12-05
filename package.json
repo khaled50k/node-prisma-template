@@ -1,0 +1,43 @@
+{
+  "name": "express-template-1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@prisma/client": "^5.19.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.3",
+    "connect-redis": "^7.1.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "csurf": "^1.10.0",
+    "express": "^4.21.0",
+    "express-rate-limit": "^7.4.0",
+    "express-session": "^1.18.0",
+    "express-xss-sanitizer": "^1.2.0",
+    "helmet": "^7.1.0",
+    "hpp": "^0.2.3",
+    "http-errors": "^2.0.0",
+    "ioredis": "^5.4.1",
+    "joi": "^17.13.3",
+    "jsonwebtoken": "^9.0.2",
+    "memorystore": "^1.6.7",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.9.15",
+    "nodemon": "^3.1.7",
+    "session-file-store": "^1.5.0",
+    "session-store": "^0.0.6",
+    "xss-clean": "^0.1.4"
+  },
+  "devDependencies": {
+    "prisma": "^5.19.1"
+  }
+}
